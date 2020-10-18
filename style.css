@@ -1,0 +1,41 @@
+
+body{
+	background-repeat: repeat;
+	background-image:url('resources/background-2.png');
+
+}
+h2{
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #303030; 
+	color:#ed9901;
+}
+.container{
+	background-color: #fff9d0;
+	padding: 20px;
+	border-radius: 25px;
+	border: 10px solid;
+	border-color: #9bc06b;
+}
+.navbar{
+	background-color: #303030;
+}
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active {
+	color: #ed9901;
+}
+.carousel, .slide,
+.carousel .carousel-inner,
+.carousel .carousel-control {
+	border-radius: 24px;
+	overflow: hidden;
+}
+.carousel .carousel-inner{
+	border-radius:30px;
+	border:5px solid #303030;
+}
+.title{
+	max-width: 400px; 
+}
+}
