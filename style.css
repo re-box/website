@@ -7,7 +7,7 @@ body{
 .container-inner{
 	background-color: #fff9d0;
 	padding: 20px;
-	border-radius: 0.5rem;
+	border-radius: 1rem;
 	border: 10px solid;
 	border-color: #9bc06b;
 }
