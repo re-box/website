@@ -8,7 +8,7 @@ var myPieChart = new Chart(ctxP, {
       datasets: [{
         data: [97.6,2.4],
         backgroundColor: ["#3bbbe2", "#ef3930"],
-        hoverBackgroundColor: ["#3bbbe2", "#ef3930"]
+        hoverBackgroundColor: ["#4ec1e4", "#ef3930"]
     }]
 },
 options: {
@@ -36,7 +36,7 @@ var myPieChart = new Chart(ctxP, {
       datasets: [{
         data: [50.4,49.6],
         backgroundColor: ["#3bbbe2", "#ef3930"],
-        hoverBackgroundColor: ["#3bbbe2", "#ef3930"]
+        hoverBackgroundColor: ["#4ec1e4", "#ef3930"]
     }]
 },
 options: {
@@ -62,7 +62,7 @@ var myPieChart = new Chart(ctxP, {
       datasets: [{
         data: [50.4,49.6],
         backgroundColor: ["#3bbbe2", "#ef3930"],
-        hoverBackgroundColor: ["#3bbbe2", "#ef3930"]
+        hoverBackgroundColor: ["#4ec1e4", "#ef3930"]
     }]
 },
 options: {
@@ -89,7 +89,7 @@ var myPieChart = new Chart(ctxP, {
       datasets: [{
         data: [38.4,61.6],
         backgroundColor: ["#3bbbe2", "#ef3930"],
-        hoverBackgroundColor: ["#3bbbe2", "#ef3930"]
+        hoverBackgroundColor: ["#4ec1e4", "#ef3930"]
     }]
 },
 options: {
@@ -115,7 +115,7 @@ var myPieChart = new Chart(ctxP, {
       datasets: [{
         data: [48,52],
         backgroundColor: ["#3bbbe2", "#ef3930"],
-        hoverBackgroundColor: ["#3bbbe2", "#ef3930"]
+        hoverBackgroundColor: ["#4ec1e4", "#ef3930"]
     }]
 },
 options: {
@@ -141,7 +141,7 @@ var myPieChart = new Chart(ctxP, {
         datasets: [{
             data: [1,36,35.2,11.2,9.6,1,5],
             backgroundColor: ["#ef3930", "#3bbbe2","#ffca3c","#f09c28","#8d40c0","#82b630","#454859"],
-            hoverBackgroundColor: ["#ef3930", "#3bbbe2","#ffca3c","#f09c28","#8d40c0","#82b630","#454859"]
+            hoverBackgroundColor: ["#4ec1e4", "#ef3930","#fecf4f","#f1a53d","#9853c6","#91ca37","#54586c"]
         }]
     },
 options: {
@@ -171,7 +171,7 @@ var myPieChart = new Chart(ctxP, {
       datasets: [{
         data: [90.4,9.6],
         backgroundColor: ["#3bbbe2", "#ef3930"],
-        hoverBackgroundColor: ["#3bbbe2", "#ef3930"]
+        hoverBackgroundColor: ["#4ec1e4", "#ef3930"]
     }]
 },
 options: {
@@ -198,7 +198,7 @@ var myPieChart = new Chart(ctxP, {
       datasets: [{
         data: [54.4,45.6],
         backgroundColor: ["#3bbbe2", "#ef3930"],
-        hoverBackgroundColor: ["#3bbbe2", "#ef3930"]
+        hoverBackgroundColor: ["#4ec1e4", "#ef3930"]
     }]
 },
 options: {
@@ -225,7 +225,7 @@ var myPieChart = new Chart(ctxP, {
       datasets: [{
         data: [5.6,94.4],
         backgroundColor: ["#3bbbe2", "#ef3930"],
-        hoverBackgroundColor: ["#3bbbe2", "#ef3930"]
+        hoverBackgroundColor: ["#4ec1e4", "#ef3930"]
     }]
 },
 options: {
