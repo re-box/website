@@ -12,12 +12,8 @@
       color:#ed9901;
     }
 
-    .card-text,.list-group-item{
-      color:rgba(255, 255, 255, 0.5);
-    }
-
     .list-group-item,.card{
-      background-color:#303030;
+      background-color:transparent;
     }
     @media (min-width: 576px){
       .card-group > .card{
@@ -26,7 +22,7 @@
         border-left:0;
       }
       .card-group > .card:first-child{
-        border-left:1px;
+        border-left:1px solid rgba(0, 0, 0, 0.125);
       }
       .container-inner > .card-group:first-child > .card:first-child{
 
@@ -37,7 +33,7 @@
         border-top-right-radius:0.25rem;
       }
       .container-inner > .card-group:last-child > .card{
-       border-bottom:1px;
+       border-bottom:1px solid rgba(0, 0, 0, 0.125);
      }
      .container-inner > .card-group:last-child > .card:first-child{
        border-bottom-left-radius:0.25rem;
@@ -170,40 +166,40 @@
   </div>
 
 </main>
-<footer class="container py-5">
-  <div class="container-inner">
-    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-5 row-cols-lg-5">
-      <div class="col">
-        <img src="resources/main.png" style="max-width:35px" alt="main icon"><p>
-          <small class="text-muted">ReBox © 2020</small>
+  <footer class="container-fluid py-5">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-5 row-cols-lg-5">
+        <div class="col">
+          <img src="resources/main.png" style="max-width:35px" alt="main icon">
+          <small>ReBox © 2020</small>
         </div>
         <div class="col">
           <a class="footer-heading" href="index.html"><h5>Homepage</h5></a>
           <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#purpose">Our Purpose</a></li>
-            <li><a class="text-muted" href="#survey">Survery Results</a></li>
+            <li><a href="#purpose">Our Purpose</a></li>
+            <li><a href="#survey">Survery Results</a></li>
           </ul>
         </div>
         <div class="col">
           <a class="footer-heading" href="aboutproject.html"><h5>About Project</h5></a>
           <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="aboutproject.html#arc1">What is Recycling</a></li>
-            <li><a class="text-muted" href="aboutproject.html#arc2">Steps to Recycling Materials</a></li>
-            <li><a class="text-muted" href="aboutproject.html#arc3">Common Recyclables</a></li>
-            <li><a class="text-muted" href="aboutproject.html#arc4">Why Should We Recycle</a></li>
+            <li><a href="aboutproject.html#arc1">What is Recycling</a></li>
+            <li><a href="aboutproject.html#arc2">Steps to Recycling Materials</a></li>
+            <li><a href="aboutproject.html#arc3">Common Recyclables</a></li>
+            <li><a href="aboutproject.html#arc4">Why Should We Recycle</a></li>
           </ul>
         </div>
         <div class="col">
-          <a class="footer-heading" href="schedule.html"><h5>Schedule</h5>
-            <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="schedule.html#week1">Week 1</a></li>
-            <li><a class="text-muted" href="schedule.html#week2">Week 2</a></li>
-            <li><a class="text-muted" href="schedule.html#week3">Week 3</a></li>
-            </ul>
-          </div>
-          <div class="col">
-            <a class="footer-heading" href="aboutus.html"><h5>About Us</h5></a>
+          <a class="footer-heading" href="schedule.html"><h5>Schedule</h5></a>
+          <ul class="list-unstyled text-small">
+            <li><a href="schedule.html#collapse1">Week 1</a></li>
+            <li><a href="schedule.html#collapse2">Week 2</a></li>
+            <li><a href="schedule.html#collapse3">Week 3</a></li>
           </ul>
+        </div>
+        <div class="col">
+          <a class="footer-heading" href="aboutus.html"><h5>About Us</h5></a>
+
         </div>
       </div>
     </div>
