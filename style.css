@@ -4,15 +4,10 @@ body{
 	background-image:url('resources/background-2.png');
 
 }
-h2{
-	-webkit-text-stroke-width: 2px;
-	-webkit-text-stroke-color: #303030; 
-	color:#ed9901;
-}
 .container-inner{
 	background-color: #fff9d0;
 	padding: 20px;
-	border-radius: 25px;
+	border-radius: 0.5rem;
 	border: 10px solid;
 	border-color: #9bc06b;
 }
@@ -38,6 +33,9 @@ h2{
 .title{
 	max-width: 550px; 
 	width:100%;
+}
+a.footer-heading{
+	color:black;
 }
 
 .border-horizontal{

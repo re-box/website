@@ -7,13 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
+
 </head>
 
 <body>
  <!-- Navigation -->
  <header>
   <nav class="navbar navbar-expand-md  navbar-dark mb-3" style="float-right">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="index.html">
       <img src="resources/main.png" style="max-width:35px" alt="main icon">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,8 +38,8 @@
     </div>
   </nav>
 </header>
-<main class="mb-5 text-center justify-content-center container">
-  <img class="img-fluid title mb-3" src="resources/recycle.png" alt="RECYCLE">
+<main class="container mb-5 text-center">
+  <img class="img-fluid title mb-3" src="resources/rebox.png" alt="RECYCLE">
   <div id="carousel" class="carousel slide mb-3" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -68,24 +69,94 @@
   <div class="container-inner">
     <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">
       <div class="col">
-        <h5>Our aim is to provide you a clean environment!</h5>
+        <h5 id="purpose">Our aim is to provide you a clean environment!</h5>
         <p>Our main goal in our project is to increase the contribution of our citizens living in Tepebaşı district to recycling and to increase their contribution to the economy and the environment. In order to achieve this, we will enable citizens to easily find the recycling, waste battery and waste oil boxes closest to them and reach them via the map.
 
         Another important goal of ours is to raise awareness of citizens who have not used recycling boxes much until now and who do not have much knowledge on this subject.</p>
 
-        <h5 class="border-horizontal">Recycling Awareness Survey Results</h5>
-        <p>We will upload the results soon</p>
+        <h5 id="survey" class="border-horizontal">Recycling Awareness Survey Results</h5>
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
+          <div class="col">
+            <p>Do you think recycling is beneficial?</p>
+            <canvas id="labelChart"></canvas>
+          </div>
+          <div class="col">
+            <p>Have you used recycling bins before?</p>
+            <canvas id="labelChart2"></canvas>
+          </div>
+          <div class="col">
+            <p>Do you have recycling bins near you? Do you know its location?</p>
+            <canvas id="labelChart3"></canvas>
+          </div>
+          <div class="col">
+            <p>Do you separate your garbage for recycling?</p>
+            <canvas id="labelChart4"></canvas>
+          </div>
+          <div class="col">
+            <p>Are you collecting your waste batteries?</p>
+            <canvas id="labelChart5"></canvas>
+          </div>
+          <div class="col">
+            <p>What material do you recycle the most?</p>
+            <canvas id="labelChart6"></canvas>
+          </div>
+          <div class="col">
+            <p>If a recycling campaign is started in your neighborhood, would you participate?</p>
+            <canvas id="labelChart7"></canvas>
+          </div>
+          <div class="col">
+            <p>Do you know the signs of environmental protection?</p>
+            <canvas id="labelChart8"></canvas>
+          </div>
+          <div class="col">
+            <p>Do you find the applications made for recycling sufficient?</p>
+            <canvas id="labelChart9"></canvas>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</main>
-<footer class="py-3 text-center container">
-  <div class="container-inner">
-    <span class="text-muted">ReBox © 2020 Copyright</span>
-  </div>
-</footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<!-- bootsrap libraries -->
-<script src="js/bootstrap.js"></script>
+  </main>
+  <footer class="container py-5">
+    <div class="container-inner">
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-5 row-cols-lg-5">
+        <div class="col">
+          <img src="resources/main.png" style="max-width:35px" alt="main icon"><p>
+          <small class="text-muted">ReBox © 2020</small>
+        </div>
+        <div class="col">
+          <a class="footer-heading" href="index.html"><h5>Homepage</h5></a>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#purpose">Our Purpose</a></li>
+            <li><a class="text-muted" href="#survey">Survery Results</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <a class="footer-heading" href="aboutproject.html"><h5>About Project</h5></a>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="aboutproject.html#arc1">What is Recycling</a></li>
+            <li><a class="text-muted" href="aboutproject.html#arc2">Steps to Recycling Materials</a></li>
+            <li><a class="text-muted" href="aboutproject.html#arc3">Common Recyclables</a></li>
+            <li><a class="text-muted" href="aboutproject.html#arc4">Why Should We Recycle</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <a class="footer-heading" href="schedule.html"><h5>Schedule</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="schedule.html#collapse1">Week 1</a></li>
+            <li><a class="text-muted" href="schedule.html#collapse2">Week 2</a></li>
+            <li><a class="text-muted" href="schedule.html#collapse3">Week 3</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <a class="footer-heading" href="aboutus.html"><h5>About Us</h5></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/mdb.min.js"></script>
+  <script src="js/graphs.js"></script>
 </body>
 </html>
